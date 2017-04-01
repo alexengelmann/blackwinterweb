@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.blackwintersoftware.web.services.TestService;
 
 @RestController
-@RequestMapping("/")
 public class TestController {
 	
 	@Autowired
